@@ -15,3 +15,4 @@
 - 绑定 GitHub 仓库：`https://github.com/shisan3130186/-`。
 - 合并 GitHub 初始 README，整理为中文可读版。
 - 成功推送本地项目到 GitHub。
+- 补充竞品关键发现：EcutPro 采用会员/卡密授权，并让用户自行配置火山引擎 Ark API Key 与 TTS API Key。

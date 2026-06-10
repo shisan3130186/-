@@ -11,6 +11,8 @@ The reference app presents a dark desktop workstation with:
 - Home tabs: Creation Center, Efficiency Tools, Automation.
 - Feature cards for AI remixing, categorized remixing, effects batch processing, subtitles, poster design, copy rewriting, and content extraction.
 - A user settings modal for profile and API keys.
+- A membership/license panel with expiry date and card-code redemption.
+- Volcengine API key configuration: Ark API Key for script/material understanding, TTS API Key for speech synthesis and possible ASR.
 - A remix workspace with left asset import, center preview/script/clip list, right render controls, and bottom export controls/progress.
 
 The installer at `D:\学习文件\ECutAuto_1.2.8_x64-setup.exe` is treated only as a behavioral reference. No private implementation is copied or reverse engineered.
@@ -22,6 +24,8 @@ The installer at `D:\学习文件\ECutAuto_1.2.8_x64-setup.exe` is treated only 
 - Desktop-like React UI with the reference information architecture.
 - Local FastAPI backend.
 - API key storage in a local JSON config file.
+- Keep Ark API Key and TTS API Key as separate credentials.
+- Do not hard-code provider secrets. Users provide their own Volcengine credentials.
 - Video folder scanning via `ffprobe`.
 - AI clip-plan endpoint with a deterministic fallback when no LLM API is configured.
 - Export task queue with progress, logs, cancellation, retry-ready task state, and FFmpeg concat rendering.
@@ -33,6 +37,7 @@ The installer at `D:\学习文件\ECutAuto_1.2.8_x64-setup.exe` is treated only 
 - Real ASR provider integration.
 - Real TTS provider integration.
 - Watermark removal.
+- Cloud license server and real payment/card-code backend.
 - Full timeline editor.
 - Account system, licensing, cloud backend, and automated publishing.
 
