@@ -11,3 +11,7 @@
 - 初始化 Git 本地仓库，提交初始版本。
 - 更新 `.gitignore`，避免 `.npm-cache` 等缓存文件进入 Git。
 - 增加 Git 版本管理规则：每完成一个小步骤就提交，重要节点推送到 GitHub。
+- 配置 Git 通过本地代理 `127.0.0.1:26589` 访问 GitHub。
+- 绑定 GitHub 仓库：`https://github.com/shisan3130186/-`。
+- 合并 GitHub 初始 README，整理为中文可读版。
+- 成功推送本地项目到 GitHub。
