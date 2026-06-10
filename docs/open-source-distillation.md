@@ -5,6 +5,7 @@
 - FunClip: MIT. Useful reference for ASR subtitle timestamps and LLM-driven clipping workflow.
 - MoneyPrinterTurbo: MIT. Useful reference for one-click video generation pipeline and task orchestration.
 - auto-editor: Unlicense/Public Domain. Useful reference for silence detection and automatic edit decisions.
+- KrillinAI: Useful reference for staged agent-friendly video localization and enhancement pipelines.
 
 ## Reference-Only Candidates
 
@@ -17,3 +18,4 @@
 - Treat clip plans as JSON data that can be edited before export.
 - Provide deterministic fallback behavior when AI provider credentials are not set.
 - Use FFmpeg and ffprobe as the source of truth for media metadata and rendering.
+- Build the MVP around local-material batch remixing, not a full manual timeline editor.
