@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyc.*
+.venv/
+.npm-cache/
+node_modules/
+frontend/dist/
+frontend/.vite/
+src-tauri/target/
+*.log
